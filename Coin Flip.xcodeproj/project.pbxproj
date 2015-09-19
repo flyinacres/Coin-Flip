@@ -11,7 +11,17 @@
 		A5DEB8251BAB79E100E81D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DEB8241BAB79E100E81D44 /* ViewController.swift */; };
 		A5DEB8281BAB79E100E81D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8261BAB79E100E81D44 /* Main.storyboard */; };
 		A5DEB82A1BAB79E100E81D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8291BAB79E100E81D44 /* Assets.xcassets */; };
-		A5DEB82D1BAB79E100E81D44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB82B1BAB79E100E81D44 /* LaunchScreen.storyboard */; };
+		A5DEB8391BAB7A0700E81D44 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8341BAB7A0700E81D44 /* head.png */; };
+		A5DEB83A1BAB7A0700E81D44 /* headangle.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8351BAB7A0700E81D44 /* headangle.png */; };
+		A5DEB83B1BAB7A0700E81D44 /* side.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8361BAB7A0700E81D44 /* side.png */; };
+		A5DEB83C1BAB7A0700E81D44 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8371BAB7A0700E81D44 /* tail.png */; };
+		A5DEB83D1BAB7A0700E81D44 /* tailangle.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8381BAB7A0700E81D44 /* tailangle.png */; };
+		A5DEB8411BAB96A300E81D44 /* headangle2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB83E1BAB96A300E81D44 /* headangle2.png */; };
+		A5DEB8421BAB96A300E81D44 /* side2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB83F1BAB96A300E81D44 /* side2.png */; };
+		A5DEB8431BAB96A300E81D44 /* tailangle2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5DEB8401BAB96A300E81D44 /* tailangle2.png */; };
+		A5DEB8661BABC66200E81D44 /* libFlurry_7.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DEB8651BABC66200E81D44 /* libFlurry_7.1.1.a */; };
+		A5DEB8691BABCB9400E81D44 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DEB8681BABCB9400E81D44 /* SystemConfiguration.framework */; };
+		A5EEB20B1BABF6E6007C3DBA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EEB20A1BABF6E6007C3DBA /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +30,20 @@
 		A5DEB8241BAB79E100E81D44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5DEB8271BAB79E100E81D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5DEB8291BAB79E100E81D44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5DEB82C1BAB79E100E81D44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5DEB82E1BAB79E100E81D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DEB8341BAB7A0700E81D44 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		A5DEB8351BAB7A0700E81D44 /* headangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headangle.png; sourceTree = "<group>"; };
+		A5DEB8361BAB7A0700E81D44 /* side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side.png; sourceTree = "<group>"; };
+		A5DEB8371BAB7A0700E81D44 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		A5DEB8381BAB7A0700E81D44 /* tailangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tailangle.png; sourceTree = "<group>"; };
+		A5DEB83E1BAB96A300E81D44 /* headangle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headangle2.png; sourceTree = "<group>"; };
+		A5DEB83F1BAB96A300E81D44 /* side2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side2.png; sourceTree = "<group>"; };
+		A5DEB8401BAB96A300E81D44 /* tailangle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tailangle2.png; sourceTree = "<group>"; };
+		A5DEB8641BABC66200E81D44 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		A5DEB8651BABC66200E81D44 /* libFlurry_7.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.1.1.a; sourceTree = "<group>"; };
+		A5DEB8671BABC71D00E81D44 /* Coin Flip-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coin Flip-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5DEB8681BABCB9400E81D44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A5EEB20A1BABF6E6007C3DBA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DEB8691BABCB9400E81D44 /* SystemConfiguration.framework in Frameworks */,
+				A5DEB8661BABC66200E81D44 /* libFlurry_7.1.1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +62,8 @@
 		A5DEB8161BAB79E100E81D44 = {
 			isa = PBXGroup;
 			children = (
+				A5EEB20A1BABF6E6007C3DBA /* Launch Screen.storyboard */,
+				A5DEB8681BABCB9400E81D44 /* SystemConfiguration.framework */,
 				A5DEB8211BAB79E100E81D44 /* Coin Flip */,
 				A5DEB8201BAB79E100E81D44 /* Products */,
 			);
@@ -54,12 +80,22 @@
 		A5DEB8211BAB79E100E81D44 /* Coin Flip */ = {
 			isa = PBXGroup;
 			children = (
+				A5DEB8341BAB7A0700E81D44 /* head.png */,
+				A5DEB8351BAB7A0700E81D44 /* headangle.png */,
+				A5DEB8361BAB7A0700E81D44 /* side.png */,
+				A5DEB8371BAB7A0700E81D44 /* tail.png */,
+				A5DEB8381BAB7A0700E81D44 /* tailangle.png */,
+				A5DEB83E1BAB96A300E81D44 /* headangle2.png */,
+				A5DEB83F1BAB96A300E81D44 /* side2.png */,
+				A5DEB8401BAB96A300E81D44 /* tailangle2.png */,
 				A5DEB8221BAB79E100E81D44 /* AppDelegate.swift */,
 				A5DEB8241BAB79E100E81D44 /* ViewController.swift */,
 				A5DEB8261BAB79E100E81D44 /* Main.storyboard */,
+				A5DEB8641BABC66200E81D44 /* Flurry.h */,
+				A5DEB8651BABC66200E81D44 /* libFlurry_7.1.1.a */,
 				A5DEB8291BAB79E100E81D44 /* Assets.xcassets */,
-				A5DEB82B1BAB79E100E81D44 /* LaunchScreen.storyboard */,
 				A5DEB82E1BAB79E100E81D44 /* Info.plist */,
+				A5DEB8671BABC71D00E81D44 /* Coin Flip-Bridging-Header.h */,
 			);
 			path = "Coin Flip";
 			sourceTree = "<group>";
@@ -95,6 +131,7 @@
 				TargetAttributes = {
 					A5DEB81E1BAB79E100E81D44 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3T8T4BQRQJ;
 					};
 				};
 			};
@@ -121,9 +158,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5DEB82D1BAB79E100E81D44 /* LaunchScreen.storyboard in Resources */,
+				A5DEB83C1BAB7A0700E81D44 /* tail.png in Resources */,
+				A5DEB83D1BAB7A0700E81D44 /* tailangle.png in Resources */,
+				A5DEB8431BAB96A300E81D44 /* tailangle2.png in Resources */,
+				A5DEB83A1BAB7A0700E81D44 /* headangle.png in Resources */,
+				A5DEB83B1BAB7A0700E81D44 /* side.png in Resources */,
+				A5DEB8391BAB7A0700E81D44 /* head.png in Resources */,
+				A5EEB20B1BABF6E6007C3DBA /* Launch Screen.storyboard in Resources */,
 				A5DEB82A1BAB79E100E81D44 /* Assets.xcassets in Resources */,
+				A5DEB8411BAB96A300E81D44 /* headangle2.png in Resources */,
 				A5DEB8281BAB79E100E81D44 /* Main.storyboard in Resources */,
+				A5DEB8421BAB96A300E81D44 /* side2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,14 +193,6 @@
 				A5DEB8271BAB79E100E81D44 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5DEB82B1BAB79E100E81D44 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5DEB82C1BAB79E100E81D44 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -246,10 +283,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qpiapps.Coin-Flip";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coin\\ Flip",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qpiapps.TapAndFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coin Flip/Coin Flip-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -257,10 +302,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Coin Flip/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.qpiapps.Coin-Flip";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Coin\\ Flip",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qpiapps.TapAndFlip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Coin Flip/Coin Flip-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +336,7 @@
 				A5DEB8331BAB79E100E81D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

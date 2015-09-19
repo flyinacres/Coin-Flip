@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Coin_Flip" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,56 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="head.png" translatesAutoresizingMaskIntoConstraints="NO" id="UVu-f9-LVF">
+                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="M47-fC-Ob4"/>
+                                    <constraint firstAttribute="height" constant="300" id="maO-fh-QPJ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nh3-0a-Lpz">
+                                <rect key="frame" x="268" y="42" width="60" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="IwL-Cz-uNP"/>
+                                    <constraint firstAttribute="height" constant="21" id="nyr-Lj-KI2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOC-6Q-ZtR">
+                                <rect key="frame" x="278" y="526" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="9yC-Xl-UXJ"/>
+                                </constraints>
+                                <state key="normal" title="Flip It!"/>
+                                <connections>
+                                    <action selector="coinFlip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YaP-Za-9nW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UVu-f9-LVF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7ld-i7-G2Z"/>
+                            <constraint firstItem="aOC-6Q-ZtR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JO6-zW-0nZ"/>
+                            <constraint firstItem="nh3-0a-Lpz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2" id="Z5o-LL-iYb"/>
+                            <constraint firstItem="nh3-0a-Lpz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="hjD-4n-eGg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aOC-6Q-ZtR" secondAttribute="bottom" constant="44" id="qxp-e7-pmI"/>
+                            <constraint firstItem="UVu-f9-LVF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ts3-JK-a4C"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="coinImage" destination="UVu-f9-LVF" id="bP7-8a-41u"/>
+                        <outlet property="coinSide" destination="nh3-0a-Lpz" id="KuD-z1-RsV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="277" y="275"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="head.png" width="1000" height="1000"/>
+    </resources>
 </document>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,10 +19,14 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" image="head.png" translatesAutoresizingMaskIntoConstraints="NO" id="UVu-f9-LVF">
                                 <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="M47-fC-Ob4"/>
                                     <constraint firstAttribute="height" constant="300" id="maO-fh-QPJ"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cmI-70-3S7" appends="YES" id="7Ox-dC-bzC"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nh3-0a-Lpz">
                                 <rect key="frame" x="268" y="42" width="60" height="21"/>
@@ -46,12 +51,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="UVu-f9-LVF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7ld-i7-G2Z"/>
+                            <constraint firstItem="UVu-f9-LVF" firstAttribute="top" secondItem="nh3-0a-Lpz" secondAttribute="bottom" constant="87" id="D51-FW-zzL"/>
                             <constraint firstItem="aOC-6Q-ZtR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JO6-zW-0nZ"/>
+                            <constraint firstItem="UVu-f9-LVF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ve1-5a-yDX"/>
                             <constraint firstItem="nh3-0a-Lpz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2" id="Z5o-LL-iYb"/>
                             <constraint firstItem="nh3-0a-Lpz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="hjD-4n-eGg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aOC-6Q-ZtR" secondAttribute="bottom" constant="44" id="qxp-e7-pmI"/>
-                            <constraint firstItem="UVu-f9-LVF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ts3-JK-a4C"/>
                         </constraints>
                     </view>
                     <connections>
@@ -60,6 +65,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="cmI-70-3S7">
+                    <connections>
+                        <action selector="coinFlip:" destination="BYZ-38-t0r" id="LGO-4J-NMd"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="277" y="275"/>
         </scene>

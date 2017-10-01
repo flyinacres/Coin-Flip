@@ -29,6 +29,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var coinImage: UIImageView!
     
     @IBAction func coinFlip(sender: AnyObject) {
+        flipCoin()
+    }
+    
+    func tap(gesture: UITapGestureRecognizer) {
+        flipCoin()
+    }
+    
+    func flipCoin() {
         flips = Int(arc4random_uniform(5)) + 1
         
         if isAnimating == true {
@@ -47,6 +55,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         coinSide.text = "Heads"
+        
     }
     
     func doAnimation() {

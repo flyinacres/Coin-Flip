@@ -4,14 +4,34 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Coin Flip WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Coin Flip.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Glance - Coin Flip WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A50FCFD81BAD33880077BC80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A50FCFE41BAD33880077BC80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A5DEB81E1BAB79E100E81D44</key>
 		<dict>
 			<key>primary</key>
